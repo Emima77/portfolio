@@ -1,13 +1,81 @@
+nav {
+    
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-right: 0%;   
+}
+nav>ul {
+    text-align: right;
+   
+}
+nav>ul>li {
+    display: inline-block;
+}
+nav ul li a {
+    padding: 18px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: green;   
+}
+nav>ul>li>a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), insert 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(221, 109, 35, 0.678);
+    color: rgba(0, 35, 122, 0.7);
+}
+#intro{
+  padding-bottom :1.5%;
+  background-color:rgba(3, 3, 3, 0.1); 
+}
+#intro>a:{
+ border : 2px solid white;
+width :20%;
+height:20%;
+margin-left: 40%;
+margin-top:10%;
+padding-bottom : 1%;
+text-align:center;
+color:white;
+}
+
+
 img{
     width:240px;
     height:240px
 }
-h1{
-    color:black;
-    background-color:skyblue
+
+
+h4,h2, h1,h3{
+    color :brown;
+    font-size:25px;
+    text-align: center;
+    font-style: italic;
 }
 p{
-    background-color:skyblue;
-    display:inline;
+   
+   font-size:20px;
+   text-align:center;
+
 }
 
+
+  #intro{
+   flex-direction:row;
+ background-color:#F0E68C;
+ border-radius:100px;
+  border:solid green;
+  }
+  body{
+      background-color:skyblue;
+      display:inline;
+  }
+  #project{
+      background-color: aqua;
+  }
+  #project ul{text-align:center;}
+  .footer{
+      background-color: black;
+      text-align: center;
+      color:white;
+  }
